@@ -1,0 +1,14 @@
+clc;
+clear;
+close all;
+ ROl=input('input liquid density(kg/m^3):');
+ ROg=input('input gas density(kg/m^3):');
+ Vsl=input('input Vsl(m/s):');
+ Vsg=input('input Vsg(m/s):');
+ MUl=input('input liquid viscosity(pa.s):');
+ MUg=input('input gas viscosity(pa.s):');
+ a=input('input deviation angle from horizontal:');
+ d=input('input diameter(in):');
+ HL=input('input liquid level(m):');
+ dp_dz=stratified_flow_model(ROl,ROg,Vsl,Vsg,d,MUl,MUg,a,HL);
+ disp(['dp_dz(pa/m)=' num2str(dp_dz) ]);
