@@ -1,5 +1,3 @@
-# Simulation-of-Multiphase-Flow-in-Wells-and-Pipelines-in-MATLAB
-
 # Simulation of Multiphase Flow in Wells and Pipelines in MATLAB
 
 This repository contains MATLAB code and a dataset for simulating multiphase flow in wells and pipelines. The code and dataset are intended to help researchers and engineers understand and analyze the behavior of multiphase flows in the context of oil and gas production systems.
